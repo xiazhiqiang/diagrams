@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T09:31:46.805Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="ON1WqWY3BhajTBytaxr_" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-11T09:36:57.201Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="rBD91zPonveT8I1BSLpP" version="14.7.6" type="github">
   <diagram id="0YKwTzjTn9c74l9xXgr4" name="模块开放">
     <mxGraphModel dx="1298" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -294,29 +294,35 @@
         <mxCell id="nvTnUAlOZHbKee-PkbUv-1" value="工程 Html" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1344.8" y="480" width="75.2" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="nvTnUAlOZHbKee-PkbUv-8" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1422.5" y="215" width="160" height="195" as="geometry" />
-        </mxCell>
-        <mxCell id="nvTnUAlOZHbKee-PkbUv-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nvTnUAlOZHbKee-PkbUv-8">
-          <mxGeometry y="25" width="160" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="nvTnUAlOZHbKee-PkbUv-4" value="Engine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nvTnUAlOZHbKee-PkbUv-8">
-          <mxGeometry x="20" y="140" width="122.5" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="nvTnUAlOZHbKee-PkbUv-5" value="Schema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nvTnUAlOZHbKee-PkbUv-8">
-          <mxGeometry x="20" y="90" width="122.5" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="nvTnUAlOZHbKee-PkbUv-6" value="页面 Default 模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nvTnUAlOZHbKee-PkbUv-8">
-          <mxGeometry x="20" y="40" width="122.5" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="nvTnUAlOZHbKee-PkbUv-7" value="单个页面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nvTnUAlOZHbKee-PkbUv-8">
-          <mxGeometry x="56.25" width="50" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="nvTnUAlOZHbKee-PkbUv-9" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="nvTnUAlOZHbKee-PkbUv-3" target="P9pTZyouTYHlQww-c1dC-35">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1190" y="590" as="sourcePoint" />
             <mxPoint x="1490" y="440" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nvTnUAlOZHbKee-PkbUv-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1383.75" y="217.87" width="237.5" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="nvTnUAlOZHbKee-PkbUv-3" value="Provider" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="nvTnUAlOZHbKee-PkbUv-12">
+          <mxGeometry y="25" width="237.5" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nvTnUAlOZHbKee-PkbUv-4" value="Engine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nvTnUAlOZHbKee-PkbUv-12">
+          <mxGeometry x="20" y="140" width="197.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nvTnUAlOZHbKee-PkbUv-5" value="Schema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nvTnUAlOZHbKee-PkbUv-12">
+          <mxGeometry x="20" y="105" width="197.5" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="nvTnUAlOZHbKee-PkbUv-6" value="Default 模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nvTnUAlOZHbKee-PkbUv-12">
+          <mxGeometry x="20" y="55" width="77.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nvTnUAlOZHbKee-PkbUv-7" value="单个页面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nvTnUAlOZHbKee-PkbUv-12">
+          <mxGeometry x="93.75" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nvTnUAlOZHbKee-PkbUv-10" value="Hooks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nvTnUAlOZHbKee-PkbUv-12">
+          <mxGeometry x="106.25" y="55" width="51.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nvTnUAlOZHbKee-PkbUv-11" value="Validates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nvTnUAlOZHbKee-PkbUv-12">
+          <mxGeometry x="166.25" y="55" width="51.25" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

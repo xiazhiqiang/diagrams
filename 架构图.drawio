@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T06:32:24.140Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="UOY0z2ZsG6FgT4kLwK2G" version="14.7.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-09-27T06:33:12.570Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="RtBt614eF6U9dOQ8b9po" version="14.7.6" type="github" pages="6">
   <diagram id="0YKwTzjTn9c74l9xXgr4" name="平台化整体方案设计">
     <mxGraphModel dx="1854" dy="1113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -754,28 +754,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U5dk3gkhGsDf43zOdKis" name="临时">
-    <mxGraphModel dx="2125" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="fkbddxb9PjpAA1k4OuK--0" />
         <mxCell id="fkbddxb9PjpAA1k4OuK--1" parent="fkbddxb9PjpAA1k4OuK--0" />
-        <mxCell id="5LyAgKtt2MZIQgfCmcpY-0" value="" style="group" vertex="1" connectable="0" parent="fkbddxb9PjpAA1k4OuK--1">
-          <mxGeometry x="-560" y="120" width="266.36" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="fkbddxb9PjpAA1k4OuK--5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-128.png;fillColor=#ffffff;" vertex="1" parent="5LyAgKtt2MZIQgfCmcpY-0">
-          <mxGeometry x="10.916393442622951" y="98.24708722577938" width="69.8641676486845" height="69.8641676486845" as="geometry" />
-        </mxCell>
-        <mxCell id="xTk-rd1trK833SpnKI86-0" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-128.png;fillColor=#ffffff;" vertex="1" parent="5LyAgKtt2MZIQgfCmcpY-0">
-          <mxGeometry x="92.78934426229509" y="0.6822714390679122" width="69.8641676486845" height="69.8641676486845" as="geometry" />
-        </mxCell>
-        <mxCell id="xTk-rd1trK833SpnKI86-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/education-and-school-8/48/Computer-128.png;fillColor=#ffffff;" vertex="1" parent="5LyAgKtt2MZIQgfCmcpY-0">
-          <mxGeometry x="196.49508196721314" y="0.6822714390679122" width="69.8641676486845" height="69.8641676486845" as="geometry" />
-        </mxCell>
-        <mxCell id="xTk-rd1trK833SpnKI86-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/plus-128.png;fillColor=#ffffff;" vertex="1" parent="5LyAgKtt2MZIQgfCmcpY-0">
-          <mxGeometry x="92.78934426229509" y="98.24708722577938" width="69.8641676486845" height="69.8641676486845" as="geometry" />
-        </mxCell>
-        <mxCell id="xTk-rd1trK833SpnKI86-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAEYAAABICAMAAAB8+nPGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABOUExURUdwTP+9APKhBvywAP6yAeCTDfOcCB8XAv+8AeydCvijBu+IEP62AP+7AO2GEfCMD//AAOqEFP6zAf+sAP+lAP+aAPWgC/mqB/KWDu+NEv8j1X0AAAAQdFJOUwD1Q5njE2AH/yh8x7rfp+lHis5OAAACyElEQVRYw62Xi5KrIBBEowYQ1Aj4iP7/j94BfIARHbzbSbZC1XLS0wOor1cg/voT0epvQJV6BiLBiBGlHoG4qvKgLPUM9DHT8nCs1CcZ1Np5FWVbPA5EEtNRi1pqZ5JWPQLlalMriIlLPQIJ5Utw7g1YYsyeZn9MWcqqCznz7IOecYAxW22J5Q84s3UzT/MEWlAtT8/HWbGUaRpHh0IvbLq58SnAAc0J3ec+xtU0On3hNeG7Xx3NOBBQjMATxS/o2TMzjR5Gf/WIbBr7hNGEFK3LLxJEqgNldBQDMZxSv1FNY+TjihqXojw3JWBAb1TTGKPteU2WIqXUBY7DiGin0cfYZFaMlBkyaxDV+rtGo13CKwVUIJc1G81/Q6ZbwtbNipENbjVWWu4CWhm6gcIwLaODvBOCw4de3nNuO98O+h4j3+yupKFEYGR93aUhVlNWN8H4Mp4iipE140UmUW0nwzB0sTrMyiz24cVyFoCJJszh9xnPdndRzHCFcWcpWTlZFJNfYlwafGtkHuNUlxhZwLy9KDuMdPsSIxtRlH7rLmpCLeKlSBZbNFcN/1mQEcyQhpHnGLMR4N3/pxtuvPTh1sxolppNDgxjR4fGRRbtPzvfCT1w+j4IJzdHfBPZHOeY3toJwzFrjIV7eynX/MBpv60X+Oggx+Wyw4vGPyYEi1BetYP0oZ31jtRMIzkVohCUMxalvD79qlKeHk8sVOzk2zBByPTnqgqEi6NvxwR2spQbdtupcztFGibvz+3IPAnDNy8HO1nSAw2B+esr5DRJdixheXcaf408rr9ug8CnfMqhluAgIPmQw7tA+inne8Vp0P0quitOxp9UpX84EvvY+DaztffnwKkJslc7RLtvxzMPdUsMc82NcKetFSv5wJBY5zuG/X68FxQoOxtj05HT3FdG9Zl+rnS3va/fZ8rKUPcRMZxQz0JI0D8nxpejbxWbygAAAABJRU5ErkJggg==;" vertex="1" parent="5LyAgKtt2MZIQgfCmcpY-0">
-          <mxGeometry x="180.12049180327872" y="108.61761309961165" width="47.75870835359291" height="49.1232428779813" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

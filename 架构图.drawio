@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T17:55:18.474Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="4JnLHudo_A_4A8RWQR2x" version="14.7.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-11-03T17:56:57.795Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="py1LPFt-rbWU3W-mdsIZ" version="14.7.6" type="github" pages="7">
   <diagram id="0YKwTzjTn9c74l9xXgr4" name="平台化整体方案设计">
     <mxGraphModel dx="1247" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1047,6 +1047,9 @@
         </mxCell>
         <mxCell id="4zMYFcU-QhaWh1-O3O5D-38" value="用户" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CYD-kdQXrD9c1xTIYZ7g-1">
           <mxGeometry x="596.38" y="91" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4zMYFcU-QhaWh1-O3O5D-39" value="SLB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CYD-kdQXrD9c1xTIYZ7g-1">
+          <mxGeometry x="510" y="734" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

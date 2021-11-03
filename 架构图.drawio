@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T17:54:14.729Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="kFu10xFKJ8nCLC4GuzwL" version="14.7.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-11-03T17:55:18.474Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="4JnLHudo_A_4A8RWQR2x" version="14.7.6" type="github" pages="7">
   <diagram id="0YKwTzjTn9c74l9xXgr4" name="平台化整体方案设计">
     <mxGraphModel dx="1247" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -860,7 +860,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="z2BhCnqr_cUGys6-yqc9" name="智搜C端架构图">
-    <mxGraphModel dx="1467" dy="1040" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1663" dy="1179" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="CYD-kdQXrD9c1xTIYZ7g-0" />
         <mxCell id="CYD-kdQXrD9c1xTIYZ7g-1" parent="CYD-kdQXrD9c1xTIYZ7g-0" />

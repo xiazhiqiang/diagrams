@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-16T10:47:46.528Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="DxguKvE31PDYankH8opK" version="14.7.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-16T12:29:49.663Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="PYLExaul79pc2y146b2E" version="14.7.6" type="github" pages="3">
   <diagram id="s-4w-iDDupcCNnd2d9N3" name="组件开发及详情页设计">
     <mxGraphModel dx="1284" dy="1245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -797,7 +797,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U003gpnN0zoYlUuhzkkx" name="数据服务设计">
-    <mxGraphModel dx="1111" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="884" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1135,7 +1135,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z_p49-ujbRkp5HkYZ6tF-1" value="场景组件开发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1984" y="860" width="120" height="45" as="geometry" />
+          <mxGeometry x="1993" y="860" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="z_p49-ujbRkp5HkYZ6tF-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z_p49-ujbRkp5HkYZ6tF-2" target="z_p49-ujbRkp5HkYZ6tF-5">
           <mxGeometry relative="1" as="geometry" />
@@ -1148,31 +1148,34 @@
         <mxCell id="z_p49-ujbRkp5HkYZ6tF-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="z_p49-ujbRkp5HkYZ6tF-2" target="z_p49-ujbRkp5HkYZ6tF-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z_p49-ujbRkp5HkYZ6tF-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="z_p49-ujbRkp5HkYZ6tF-2" target="z_p49-ujbRkp5HkYZ6tF-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="z_p49-ujbRkp5HkYZ6tF-19" value="指定应用场景" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="z_p49-ujbRkp5HkYZ6tF-18">
-          <mxGeometry x="0.2858" relative="1" as="geometry">
-            <mxPoint y="11" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="z_p49-ujbRkp5HkYZ6tF-2" value="clark-plugin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1984" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="1993" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z_p49-ujbRkp5HkYZ6tF-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="z_p49-ujbRkp5HkYZ6tF-5" target="z_p49-ujbRkp5HkYZ6tF-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z_p49-ujbRkp5HkYZ6tF-5" value="services 请求代码&lt;br&gt;（含请求路径）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1984" y="1090" width="120" height="60" as="geometry" />
+          <mxGeometry x="1993" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z_p49-ujbRkp5HkYZ6tF-7" value="clark-core" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2170" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="2150" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z_p49-ujbRkp5HkYZ6tF-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="z_p49-ujbRkp5HkYZ6tF-11" target="biGkRDRzKGg6Uj6YviWY-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="z_p49-ujbRkp5HkYZ6tF-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="z_p49-ujbRkp5HkYZ6tF-5" target="z_p49-ujbRkp5HkYZ6tF-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2139" y="1120" />
+              <mxPoint x="2139" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="z_p49-ujbRkp5HkYZ6tF-11" value="本地代理配置&lt;br&gt;（代理到 clark 服务）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1820" y="1090" width="130" height="60" as="geometry" />
+          <mxGeometry x="1830" y="1090" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z_p49-ujbRkp5HkYZ6tF-20" value="clark-switch-sdk/pc.js&lt;br&gt;切换场景/环境" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

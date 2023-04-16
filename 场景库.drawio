@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-16T04:48:34.374Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="oDWysFin5xEC-4XE6fiD" version="14.7.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-16T09:28:57.099Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="1Zbc2CJGL0b4j3cSKIDN" version="14.7.6" type="github" pages="3">
   <diagram id="s-4w-iDDupcCNnd2d9N3" name="组件开发及详情页设计">
     <mxGraphModel dx="1284" dy="1245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1019,6 +1019,9 @@
         <mxCell id="yFW2CuVIbkPsK7frW7rv-158" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="yFW2CuVIbkPsK7frW7rv-159" target="yFW2CuVIbkPsK7frW7rv-166" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="biGkRDRzKGg6Uj6YviWY-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yFW2CuVIbkPsK7frW7rv-159" target="biGkRDRzKGg6Uj6YviWY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yFW2CuVIbkPsK7frW7rv-159" value="Mock 服务配置" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1225" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1122,6 +1125,9 @@
             <mxPoint x="260" y="330" as="sourcePoint" />
             <mxPoint x="310" y="280" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="biGkRDRzKGg6Uj6YviWY-1" value="HTTP mock 服务：&lt;br&gt;https://clark-platform.alibaba-inc.com/proxy/${requestPath}?_app_name_=${appName}&amp;amp;_clark_env_=&amp;amp;_clark_mock_=" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1425" y="1090" width="365" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

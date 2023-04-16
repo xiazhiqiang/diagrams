@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-16T13:29:38.122Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="PHjjMeMZCAYn_yYUmyuz" version="14.7.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-16T13:31:28.672Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="uzn9-MxF0liV_ke5CPYe" version="14.7.6" type="github" pages="3">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
     <mxGraphModel dx="1284" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1057,20 +1057,20 @@
         </mxCell>
         <mxCell id="yFW2CuVIbkPsK7frW7rv-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yFW2CuVIbkPsK7frW7rv-168" target="yFW2CuVIbkPsK7frW7rv-172" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1650" y="1645" as="targetPoint" />
+            <mxPoint x="1650" y="1555" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yFW2CuVIbkPsK7frW7rv-168" value="私有 OSS" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.object_storage_support;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1469" y="1691.5" width="70" height="70" as="geometry" />
+          <mxGeometry x="1469" y="1601.5" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yFW2CuVIbkPsK7frW7rv-169" value="ak 访问" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1589" y="1691.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="1589" y="1601.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yFW2CuVIbkPsK7frW7rv-170" value="ak 访问" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1504" y="1540" width="60" height="30" as="geometry" />
+          <mxGeometry x="1504" y="1480" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yFW2CuVIbkPsK7frW7rv-171" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1714" y="1490" width="515" height="380" as="geometry" />
+          <mxGeometry x="1690" y="1400" width="515" height="380" as="geometry" />
         </mxCell>
         <mxCell id="yFW2CuVIbkPsK7frW7rv-172" value="d-planet&lt;br&gt;数据托管服务&lt;br&gt;（随node服务发布）" style="rounded=0;whiteSpace=wrap;html=1;" parent="yFW2CuVIbkPsK7frW7rv-171" vertex="1">
           <mxGeometry y="206.5" width="120" height="60" as="geometry" />
@@ -1128,6 +1128,9 @@
             <mxPoint x="260" y="330" as="sourcePoint" />
             <mxPoint x="310" y="280" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="dvRNrqoCMeOvJZXKxk0F-15" value="应用维度及默认场景请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="yFW2CuVIbkPsK7frW7rv-171">
+          <mxGeometry x="120" y="206.5" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="biGkRDRzKGg6Uj6YviWY-1" value="HTTP mock 服务：&lt;br&gt;https://clark-platform.alibaba-inc.com/proxy/${requestPath}?_app_name_=${appName}&amp;amp;_clark_env_=&amp;amp;_clark_mock_=&lt;br&gt;header参数：_clark_env_,&amp;nbsp;_clark_mock_" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1425" y="1090" width="365" height="60" as="geometry" />
@@ -1202,7 +1205,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dvRNrqoCMeOvJZXKxk0F-10" value="根据应用维度区分目录/encode(请求路径)/场景名.json&lt;br&gt;每个目录下有一份 default.json" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="1399" y="1400" width="210" height="60" as="geometry" />
+          <mxGeometry x="1399" y="1350" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dvRNrqoCMeOvJZXKxk0F-14" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="dvRNrqoCMeOvJZXKxk0F-12" target="z_p49-ujbRkp5HkYZ6tF-5">
           <mxGeometry relative="1" as="geometry" />

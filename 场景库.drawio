@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T02:13:09.400Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="GHlO9WsEiHz5rtLDJIhq" version="14.7.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-21T02:32:57.995Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="uMG6mEBGk_zK0_Y-igfr" version="14.7.6" type="github" pages="3">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
     <mxGraphModel dx="1284" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -801,6 +801,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dvRNrqoCMeOvJZXKxk0F-67" value="中间件" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1998.94" y="1760" width="160" height="400" as="geometry" />
+        </mxCell>
         <mxCell id="dvRNrqoCMeOvJZXKxk0F-48" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="1210" width="620" height="100" as="geometry" />
         </mxCell>
@@ -1257,8 +1260,8 @@
         <mxCell id="dvRNrqoCMeOvJZXKxk0F-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="dvRNrqoCMeOvJZXKxk0F-63" target="dvRNrqoCMeOvJZXKxk0F-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dvRNrqoCMeOvJZXKxk0F-63" value="中间件&lt;br&gt;防盗链拦截" style="whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="2021.94" y="1860" width="120" height="60" as="geometry" />
+        <mxCell id="dvRNrqoCMeOvJZXKxk0F-63" value="jwt 参数校验" style="whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="2020.88" y="1886" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yFW2CuVIbkPsK7frW7rv-172" value="d-planet&lt;br&gt;数据托管服务&lt;br&gt;（随node服务发布）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2021.94" y="1576.5" width="120" height="60" as="geometry" />
@@ -1323,8 +1326,8 @@
         <mxCell id="dvRNrqoCMeOvJZXKxk0F-25" value="控制器&lt;br&gt;vm 运行动态逻辑&lt;br&gt;修改相应" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="2021.94" y="1670" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dvRNrqoCMeOvJZXKxk0F-23" value="中间件&lt;br&gt;获取配置，设置请求" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="2021.94" y="1760" width="120" height="60" as="geometry" />
+        <mxCell id="dvRNrqoCMeOvJZXKxk0F-23" value="路径及参数，获取请求配置（延迟、header等）" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="2021.94" y="1790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dvRNrqoCMeOvJZXKxk0F-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="dvRNrqoCMeOvJZXKxk0F-23" target="dvRNrqoCMeOvJZXKxk0F-25">
           <mxGeometry x="2021.94" y="1370" as="geometry" />
@@ -1334,6 +1337,18 @@
             <mxPoint x="1851.94" y="1470" as="sourcePoint" />
             <mxPoint x="1901.94" y="1420" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="dvRNrqoCMeOvJZXKxk0F-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="dvRNrqoCMeOvJZXKxk0F-65" target="dvRNrqoCMeOvJZXKxk0F-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dvRNrqoCMeOvJZXKxk0F-65" value="&lt;span&gt;防盗链拦截&lt;/span&gt;" style="whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="2020.88" y="2076" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dvRNrqoCMeOvJZXKxk0F-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="dvRNrqoCMeOvJZXKxk0F-68" target="dvRNrqoCMeOvJZXKxk0F-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dvRNrqoCMeOvJZXKxk0F-68" value="access token&lt;br&gt;管控请求" style="whiteSpace=wrap;html=1;dashed=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2020.88" y="1980" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

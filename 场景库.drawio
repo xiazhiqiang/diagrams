@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T03:50:03.816Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="nlyPRrEqjIxZ9gq3v_wD" version="14.7.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-21T03:52:58.468Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="lqIwo6jmLz73lFigRp9G" version="14.7.6" type="github" pages="3">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
     <mxGraphModel dx="1284" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1197,7 +1197,7 @@
             <mxPoint x="1300" y="1230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dvRNrqoCMeOvJZXKxk0F-47" value="常用协议类型mock&lt;br&gt;如颜色、经纬度等" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="dvRNrqoCMeOvJZXKxk0F-47" value="常用协议类型mock&lt;br&gt;如颜色、经纬度等" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1630" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dvRNrqoCMeOvJZXKxk0F-49" value="" style="endArrow=classic;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="yFW2CuVIbkPsK7frW7rv-160" target="dvRNrqoCMeOvJZXKxk0F-51">

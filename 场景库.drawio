@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-22T13:40:55.974Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="HfoGIG8sf5lUnrlKBb10" version="14.7.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-22T13:41:52.012Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="It_ndwF6BK3gDgrVI6-W" version="14.7.6" type="github" pages="3">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
     <mxGraphModel dx="1284" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1035,8 +1035,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1982" y="2015" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1122" y="2096" />
-              <mxPoint x="1122" y="2446" />
+              <mxPoint x="1040" y="2096" />
+              <mxPoint x="1040" y="2446" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1044,7 +1044,7 @@
           <mxGeometry x="1357" y="2061.5" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yFW2CuVIbkPsK7frW7rv-169" value="ak 访问" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1152" y="2410" width="60" height="30" as="geometry" />
+          <mxGeometry x="970" y="2250" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yFW2CuVIbkPsK7frW7rv-170" value="ak 访问" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1324.5" y="2010" width="60" height="30" as="geometry" />
@@ -1245,7 +1245,7 @@
           <mxGeometry x="1082" y="1510" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GQnrZpPC0Uw_b7lAu4rb-3" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1250.94" y="2210" width="711.06" height="790" as="geometry" />
+          <mxGeometry x="1140" y="2210" width="711.06" height="790" as="geometry" />
         </mxCell>
         <mxCell id="dvRNrqoCMeOvJZXKxk0F-67" value="中间件" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;align=left;" parent="GQnrZpPC0Uw_b7lAu4rb-3" vertex="1">
           <mxGeometry y="390" width="160" height="400" as="geometry" />
@@ -1414,7 +1414,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GQnrZpPC0Uw_b7lAu4rb-26" value="honeycomb&lt;br&gt;应用配置" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="1062" y="2820" width="120" height="60" as="geometry" />
+          <mxGeometry x="927" y="2820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

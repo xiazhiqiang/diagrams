@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T02:22:37.764Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="t4vXSD4FSYyu7m8rWg2D" version="14.7.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-26T02:10:55.981Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="YoeHYhVFrid2uKWHYboY" version="14.7.6" type="github" pages="3">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
     <mxGraphModel dx="1284" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -797,7 +797,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U003gpnN0zoYlUuhzkkx" name="数据服务设计">
-    <mxGraphModel dx="1740" dy="1408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1111" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -993,7 +993,7 @@
         <mxCell id="yFW2CuVIbkPsK7frW7rv-152" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yFW2CuVIbkPsK7frW7rv-153" target="yFW2CuVIbkPsK7frW7rv-159" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yFW2CuVIbkPsK7frW7rv-153" value="新建应用场景" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="yFW2CuVIbkPsK7frW7rv-153" value="新建应用/场景" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1557" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yFW2CuVIbkPsK7frW7rv-154" value="关联数据源&lt;br&gt;n : 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -1014,8 +1014,20 @@
         <mxCell id="yFW2CuVIbkPsK7frW7rv-159" value="Mock 服务配置" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1557" y="1550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GQnrZpPC0Uw_b7lAu4rb-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yFW2CuVIbkPsK7frW7rv-160" target="dvRNrqoCMeOvJZXKxk0F-51">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="GQnrZpPC0Uw_b7lAu4rb-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yFW2CuVIbkPsK7frW7rv-160" target="yFW2CuVIbkPsK7frW7rv-172">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="2300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1392" y="1790" />
+              <mxPoint x="900" y="1790" />
+              <mxPoint x="900" y="2446" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GQnrZpPC0Uw_b7lAu4rb-105" value="&lt;span style=&quot;font-size: 12px&quot;&gt;按应用、接口、场景&lt;/span&gt;&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;同步数据&lt;/span&gt;&lt;br&gt;&lt;br&gt;通过脚本拉去clark上的mock数据&lt;br&gt;到d-planet工程&lt;br&gt;然后执行d-planet工程发布" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GQnrZpPC0Uw_b7lAu4rb-2">
+          <mxGeometry x="0.151" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="yFW2CuVIbkPsK7frW7rv-160" value="单个接口多场景&lt;br&gt;配置返回数据&lt;br&gt;（场景标识区分）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1332" y="1690" width="120" height="60" as="geometry" />
@@ -1235,7 +1247,7 @@
         <mxCell id="dvRNrqoCMeOvJZXKxk0F-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="dvRNrqoCMeOvJZXKxk0F-58" target="yFW2CuVIbkPsK7frW7rv-127" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dvRNrqoCMeOvJZXKxk0F-58" value="参数及返回值&lt;br&gt;类型 JSON&amp;nbsp;描述" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;dashed=1;" parent="1" vertex="1">
+        <mxCell id="dvRNrqoCMeOvJZXKxk0F-58" value="参数及返回值&lt;br&gt;类型 JSON&amp;nbsp;描述&lt;br&gt;定义 ts interface" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1073.24" y="1550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dvRNrqoCMeOvJZXKxk0F-61" value="录入mock数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">

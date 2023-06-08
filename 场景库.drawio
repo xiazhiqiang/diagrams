@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-08T13:46:52.138Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="nMoVUcfuVIsXQpnvIyr2" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-06-08T14:57:01.083Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="FfdpmeJ4HOcJA6LAVvJT" version="14.7.6" type="github" pages="4">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
     <mxGraphModel dx="1284" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1600,6 +1600,72 @@
           <mxGeometry x="600" y="190" width="90" height="42" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-0" value="SDK 物料模板" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="110" y="804" width="500" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-1" value="框架&lt;br&gt;依赖" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="120" y="1114" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-2" value="ice 应用工程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="165" y="1124" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-5" value="插件" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="120" y="1044" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-8" value="扩展自定义插件&lt;br&gt;生成标准产物" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="165" y="1054" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-9" value="Layout&lt;br&gt;配置" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="120" y="974" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-12" value="菜单组件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="270" y="984" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-14" value="页面" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="120" y="904" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-15" value="概述" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="165" y="914" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-16" value="快速上手" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="270" y="914" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-17" value="产物" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="120" y="834" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-18" value="工程页面&lt;br&gt;html/css/js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="165" y="844" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-19" value="参数说明&lt;br&gt;markdown" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="270" y="844" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-20" value="数据服务说明&lt;br&gt;markdown" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="375" y="844" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-21" value="左右结构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="165" y="984" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-22" value="README" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="480" y="844" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-23" value="$场景组件&lt;br&gt;动态路由" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="375" y="914" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-25" value="SDK 菜单配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="375" y="984" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-26" value="相关下载&lt;br&gt;配置跳转参数" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="480" y="914" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-27" value="安装 指定版本DTF" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="270" y="1124" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-28" value="安装指定版本&lt;br&gt;场景组件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="375" y="1124" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-29" value="SDK 资源导出&lt;br&gt;用于生成产物" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="480" y="984" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

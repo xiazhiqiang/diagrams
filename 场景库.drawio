@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-08T17:42:59.240Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="3HtOz8CbrsyK7_llf55Q" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-06-08T18:05:15.107Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="Nb9-StyXZoSwYKb9fhfk" version="14.7.6" type="github" pages="4">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
     <mxGraphModel dx="1284" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1523,7 +1523,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="22HOHR0It0rYgMHRkXH8" name="孪生服务中心-SDK设计">
-    <mxGraphModel dx="1070" dy="-75" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1511" dy="224" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="na3GEsZW8x99YdmNZLgH-0" />
         <mxCell id="na3GEsZW8x99YdmNZLgH-1" parent="na3GEsZW8x99YdmNZLgH-0" />
@@ -1545,7 +1545,7 @@
         <mxCell id="H2Tn0Q27p6VrmFGeI2eH-9" value="Layout&lt;br&gt;配置" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
           <mxGeometry x="170" y="1220" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-12" value="目录树组件及&lt;br&gt;目录树配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-12" value="目录树组件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
           <mxGeometry x="320" y="1230" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="H2Tn0Q27p6VrmFGeI2eH-14" value="页面" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">

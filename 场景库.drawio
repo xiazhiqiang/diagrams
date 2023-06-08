@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-08T17:36:16.952Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="WPRYEMwEEimJQ948f8oX" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-06-08T17:42:59.240Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="3HtOz8CbrsyK7_llf55Q" version="14.7.6" type="github" pages="4">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
     <mxGraphModel dx="1284" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1523,7 +1523,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="22HOHR0It0rYgMHRkXH8" name="孪生服务中心-SDK设计">
-    <mxGraphModel dx="2140" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1070" dy="-75" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="na3GEsZW8x99YdmNZLgH-0" />
         <mxCell id="na3GEsZW8x99YdmNZLgH-1" parent="na3GEsZW8x99YdmNZLgH-0" />
@@ -1853,8 +1853,8 @@
         <mxCell id="vUXjWAX2nUAFUlUBGt-m-94" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="vUXjWAX2nUAFUlUBGt-m-91">
           <mxGeometry x="120" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vUXjWAX2nUAFUlUBGt-m-95" value="SDK 下载页提到主应用作为一个页面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
-          <mxGeometry x="1000" y="2010" width="210" height="20" as="geometry" />
+        <mxCell id="vUXjWAX2nUAFUlUBGt-m-95" value="SDK 下载页单独提出：&lt;br&gt;可以是主应用的一个页面，也可以是非SDK模板子应用的一个页面" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+          <mxGeometry x="1000" y="2005" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vUXjWAX2nUAFUlUBGt-m-96" value="目录树及子路由配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
           <mxGeometry x="320" y="1771" width="90" height="40" as="geometry" />

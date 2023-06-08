@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-08T15:56:40.813Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="Bktxt7Tsd9urRFpeLb97" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-06-08T15:57:04.185Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="21so1N_GjaudLD5d7STB" version="14.7.6" type="github" pages="4">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
     <mxGraphModel dx="1284" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1523,84 +1523,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="22HOHR0It0rYgMHRkXH8" name="孪生服务中心-SDK设计">
-    <mxGraphModel dx="1911" dy="1024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1511" dy="224" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="na3GEsZW8x99YdmNZLgH-0" />
         <mxCell id="na3GEsZW8x99YdmNZLgH-1" parent="na3GEsZW8x99YdmNZLgH-0" />
-        <mxCell id="na3GEsZW8x99YdmNZLgH-2" value="孪生应用构建平台——主应用 iceStark" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
-          <mxGeometry x="-60" y="140" width="240" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="na3GEsZW8x99YdmNZLgH-10" value="" style="group" vertex="1" connectable="0" parent="na3GEsZW8x99YdmNZLgH-1">
-          <mxGeometry x="10" y="190" width="100" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="na3GEsZW8x99YdmNZLgH-4" value="服务中心" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#6C767D;fontColor=#ffffff;whiteSpace=wrap;align=left;verticalAlign=middle;fontStyle=0;fontSize=14;spacingLeft=10;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-10">
-          <mxGeometry x="8.823529411764705" width="91.17647058823528" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="na3GEsZW8x99YdmNZLgH-5" value="" style="shape=triangle;direction=south;fillColor=#ffffff;strokeColor=none;perimeter=none;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-4">
-          <mxGeometry x="1" y="0.5" width="10" height="5" relative="1" as="geometry">
-            <mxPoint x="-17" y="-2.5" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="na3GEsZW8x99YdmNZLgH-6" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=#ffffff;strokeColor=#999999;align=left;verticalAlign=middle;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-10">
-          <mxGeometry y="43" width="100" height="77" as="geometry" />
-        </mxCell>
-        <mxCell id="na3GEsZW8x99YdmNZLgH-7" value="SDK 中心" style="fillColor=none;strokeColor=none;align=left;spacing=20;fontSize=14;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-6">
-          <mxGeometry width="100" height="30" relative="1" as="geometry">
-            <mxPoint y="10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="na3GEsZW8x99YdmNZLgH-8" value="API 中心" style="fillColor=none;strokeColor=none;align=left;spacing=20;fontSize=14;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-6">
-          <mxGeometry width="100" height="30" relative="1" as="geometry">
-            <mxPoint y="40" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="na3GEsZW8x99YdmNZLgH-11" value="SDK 详情页——icestark 子应用" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
-          <mxGeometry x="590" y="140" width="370" height="370" as="geometry" />
-        </mxCell>
-        <mxCell id="na3GEsZW8x99YdmNZLgH-22" value="" style="perimeter=none;dashed=0;shape=rect;fillColor=#ffffff;strokeColor=#eeeeee;shadow=1;align=left;verticalAlign=middle;container=0;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
-          <mxGeometry x="600" y="180" width="90" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="na3GEsZW8x99YdmNZLgH-28" value="SDK 列表页——icestark 子应用" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
-          <mxGeometry x="240" y="140" width="300" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="na3GEsZW8x99YdmNZLgH-35" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="na3GEsZW8x99YdmNZLgH-1" source="na3GEsZW8x99YdmNZLgH-7" target="na3GEsZW8x99YdmNZLgH-28">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="470" as="sourcePoint" />
-            <mxPoint x="440" y="420" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="na3GEsZW8x99YdmNZLgH-37" value="交通仿真 SDK" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
-          <mxGeometry x="380" y="190" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="na3GEsZW8x99YdmNZLgH-38" value="交通孪生 SDK" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
-          <mxGeometry x="280" y="190" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="na3GEsZW8x99YdmNZLgH-39" value="DTF SDK" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
-          <mxGeometry x="280" y="250" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="na3GEsZW8x99YdmNZLgH-42" value="内容" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
-          <mxGeometry x="710" y="180" width="230" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="na3GEsZW8x99YdmNZLgH-46" value="SDK 信息配置" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.json_2;gradientColor=#DFDEDE" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
-          <mxGeometry x="328.8" y="440" width="102.4" height="102.4" as="geometry" />
-        </mxCell>
-        <mxCell id="na3GEsZW8x99YdmNZLgH-47" value="" style="endArrow=classic;html=1;" edge="1" parent="na3GEsZW8x99YdmNZLgH-1" source="na3GEsZW8x99YdmNZLgH-46" target="na3GEsZW8x99YdmNZLgH-28">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="540" as="sourcePoint" />
-            <mxPoint x="450" y="490" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="na3GEsZW8x99YdmNZLgH-48" value="" style="endArrow=classic;html=1;" edge="1" parent="na3GEsZW8x99YdmNZLgH-1" source="na3GEsZW8x99YdmNZLgH-46" target="na3GEsZW8x99YdmNZLgH-11">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="540" as="sourcePoint" />
-            <mxPoint x="450" y="490" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="na3GEsZW8x99YdmNZLgH-23" value="菜单树" style="text;verticalAlign=middle;fontSize=15;spacing=16;resizeWidth=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
-          <mxGeometry x="600" y="190" width="90" height="42" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="qVLLQZAzdB3aMEne7QtM-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="na3GEsZW8x99YdmNZLgH-1" source="H2Tn0Q27p6VrmFGeI2eH-17" target="qVLLQZAzdB3aMEne7QtM-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>

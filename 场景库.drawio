@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-09T15:07:18.403Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="1eJ7sc740R2PN8WFQo-B" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-06-09T15:07:52.607Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="e4-nOVZ9tqGxKFB7Z0A_" version="14.7.6" type="github" pages="4">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
     <mxGraphModel dx="1284" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1608,7 +1608,7 @@
         <mxCell id="qVLLQZAzdB3aMEne7QtM-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="na3GEsZW8x99YdmNZLgH-1" source="qVLLQZAzdB3aMEne7QtM-8" target="qVLLQZAzdB3aMEne7QtM-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qVLLQZAzdB3aMEne7QtM-8" value="孪生构建平台配置&lt;br&gt;服务中心每个 SDK 子应用每个版本配置唯一路由、SDK 各版本下载资源地址等信息" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+        <mxCell id="qVLLQZAzdB3aMEne7QtM-8" value="孪生构建平台配置&lt;br&gt;服务中心每个 SDK 子应用每个版本配置唯一子应用路由、SDK 各版本下载资源地址等信息" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
           <mxGeometry x="740" y="1200" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qVLLQZAzdB3aMEne7QtM-11" value="目录树" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">

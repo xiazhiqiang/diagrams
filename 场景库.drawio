@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-09T08:10:22.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="XTSq_Mg8c1WW5tvWXRSR" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-06-09T14:52:45.052Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="DJqNBtzBDZx_bkYEuKyw" version="14.7.6" type="github" pages="4">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
     <mxGraphModel dx="1284" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1523,17 +1523,17 @@
     </mxGraphModel>
   </diagram>
   <diagram id="22HOHR0It0rYgMHRkXH8" name="孪生服务中心-SDK设计">
-    <mxGraphModel dx="1284" dy="70" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1511" dy="224" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="na3GEsZW8x99YdmNZLgH-0" />
         <mxCell id="na3GEsZW8x99YdmNZLgH-1" parent="na3GEsZW8x99YdmNZLgH-0" />
-        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-0" value="SDK 物料模板（子应用）" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-0" value="SDK 物料模板" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
           <mxGeometry x="160" y="1050" width="500" height="380" as="geometry" />
         </mxCell>
         <mxCell id="H2Tn0Q27p6VrmFGeI2eH-1" value="框架&lt;br&gt;依赖" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
           <mxGeometry x="170" y="1360" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-2" value="icestark 子应用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+        <mxCell id="H2Tn0Q27p6VrmFGeI2eH-2" value="ice 应用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
           <mxGeometry x="215" y="1370" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="H2Tn0Q27p6VrmFGeI2eH-5" value="插件" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
@@ -1602,13 +1602,13 @@
         <mxCell id="qVLLQZAzdB3aMEne7QtM-6" value="孪生构建平台（icestark 主应用）" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
           <mxGeometry x="1000" y="1050" width="500" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="qVLLQZAzdB3aMEne7QtM-7" value="SDK 子应用" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+        <mxCell id="qVLLQZAzdB3aMEne7QtM-7" value="服务中心子应用" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
           <mxGeometry x="1030" y="1130" width="450" height="280" as="geometry" />
         </mxCell>
         <mxCell id="qVLLQZAzdB3aMEne7QtM-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="na3GEsZW8x99YdmNZLgH-1" source="qVLLQZAzdB3aMEne7QtM-8" target="qVLLQZAzdB3aMEne7QtM-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qVLLQZAzdB3aMEne7QtM-8" value="孪生构建平台配置&lt;br&gt;SDK 子应用、SDK 版本、资源地址等信息" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+        <mxCell id="qVLLQZAzdB3aMEne7QtM-8" value="孪生构建平台配置&lt;br&gt;服务中心子应用、SDK 各版本、资源地址等信息" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
           <mxGeometry x="740" y="1200" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qVLLQZAzdB3aMEne7QtM-11" value="目录树" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
@@ -1729,7 +1729,7 @@
         <mxCell id="vUXjWAX2nUAFUlUBGt-m-31" value="孪生构建平台（icestark 主应用）" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
           <mxGeometry x="1000" y="1590" width="640" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="vUXjWAX2nUAFUlUBGt-m-32" value="SDK 子应用" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+        <mxCell id="vUXjWAX2nUAFUlUBGt-m-32" value="服务中心子应用" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
           <mxGeometry x="1140" y="1670" width="480" height="270" as="geometry" />
         </mxCell>
         <mxCell id="vUXjWAX2nUAFUlUBGt-m-33" value="目录树" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">

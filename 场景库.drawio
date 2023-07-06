@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T14:58:45.393Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="ND0l5e5anj1sE0pl6Hld" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-06T12:10:08.421Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="0Af9qQB_coe3PaUEJZSp" version="21.6.1" type="github" pages="4">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
-    <mxGraphModel dx="5136" dy="3480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1292" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VpfJ0-BsZYaezdpsKulv-0" />
         <mxCell id="VpfJ0-BsZYaezdpsKulv-1" parent="VpfJ0-BsZYaezdpsKulv-0" />
@@ -797,7 +797,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U003gpnN0zoYlUuhzkkx" name="mock服务">
-    <mxGraphModel dx="884" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="892" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1518,6 +1518,41 @@
         </mxCell>
         <mxCell id="GQnrZpPC0Uw_b7lAu4rb-50" value="HTTP请求延迟" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="GQnrZpPC0Uw_b7lAu4rb-104" vertex="1">
           <mxGeometry x="10" y="180" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="De5sz6eLWoz17631bPSr-1" value="API 管理" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="850" y="4350" width="520" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="De5sz6eLWoz17631bPSr-2" value="应用管理" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="850" y="4490" width="520" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="De5sz6eLWoz17631bPSr-3" value="数据录入" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="850" y="4610" width="520" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="De5sz6eLWoz17631bPSr-4" value="接口协议&lt;br&gt;上传" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="865" y="4380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="De5sz6eLWoz17631bPSr-5" value="接口&lt;br&gt;自定义编辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="4380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="De5sz6eLWoz17631bPSr-6" value="服务导入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="992.5" y="4380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="De5sz6eLWoz17631bPSr-7" value="关联API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="865" y="4520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="De5sz6eLWoz17631bPSr-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="De5sz6eLWoz17631bPSr-1" target="De5sz6eLWoz17631bPSr-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1190" y="4550" as="sourcePoint" />
+            <mxPoint x="1240" y="4500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="De5sz6eLWoz17631bPSr-9" value="关联 n:1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="De5sz6eLWoz17631bPSr-8">
+          <mxGeometry x="-0.15" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="De5sz6eLWoz17631bPSr-10" value="修改" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="992.5" y="4520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

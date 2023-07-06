@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T12:10:08.421Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="0Af9qQB_coe3PaUEJZSp" version="21.6.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-06T12:58:47.146Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="Z6tJ0NXVIAmj_p5t_WsN" version="21.6.1" type="github" pages="4">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
     <mxGraphModel dx="1292" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1534,7 +1534,7 @@
         <mxCell id="De5sz6eLWoz17631bPSr-5" value="接口&lt;br&gt;自定义编辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1120" y="4380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="De5sz6eLWoz17631bPSr-6" value="服务导入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="De5sz6eLWoz17631bPSr-6" value="协议地址&lt;br&gt;导入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="992.5" y="4380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="De5sz6eLWoz17631bPSr-7" value="关联API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1551,8 +1551,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="De5sz6eLWoz17631bPSr-10" value="修改" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="De5sz6eLWoz17631bPSr-10" value="环境配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="992.5" y="4520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="De5sz6eLWoz17631bPSr-11" value="导出 API 定义 &amp;amp;&lt;br&gt;服务配置 &amp;amp;&lt;br&gt;Mock 数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="4520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="De5sz6eLWoz17631bPSr-12" value="单帧、多帧&lt;br&gt;数据导入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="865" y="4650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="De5sz6eLWoz17631bPSr-13" value="数据服务配置&lt;br&gt;（延迟/推送时间等）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="992.5" y="4650" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

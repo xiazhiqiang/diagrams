@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T22:16:59.280Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="ylG9hKbi-HwDxRv64G0G" version="21.6.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-07T00:40:16.037Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="cPtu9o69_xe1mU9SmiG4" version="21.6.1" type="github" pages="4">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
     <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -797,7 +797,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U003gpnN0zoYlUuhzkkx" name="mock服务">
-    <mxGraphModel dx="1292" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1520" dy="996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1543,7 +1543,7 @@
         <mxCell id="De5sz6eLWoz17631bPSr-2" value="应用管理" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="890" y="4760" width="470" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="De5sz6eLWoz17631bPSr-3" value="数据录入" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="De5sz6eLWoz17631bPSr-3" value="数据管理" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="890" y="4880" width="470" height="210" as="geometry" />
         </mxCell>
         <mxCell id="De5sz6eLWoz17631bPSr-4" value="接口协议&lt;br&gt;上传" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1569,19 +1569,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="De5sz6eLWoz17631bPSr-10" value="环境配置" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="De5sz6eLWoz17631bPSr-10" value="环境配置&lt;br&gt;数据服务配置" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1032.5" y="4790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="De5sz6eLWoz17631bPSr-11" value="导出 API 定义 &amp;amp;&lt;br&gt;服务配置 &amp;amp;&lt;br&gt;Mock 数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1160" y="4790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="De5sz6eLWoz17631bPSr-12" value="单帧、多帧&lt;br&gt;数据导入" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="De5sz6eLWoz17631bPSr-12" value="单帧、多帧&lt;br&gt;数据文件上传" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="905" y="4920" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="De5sz6eLWoz17631bPSr-13" value="数据服务配置&lt;br&gt;（延迟/推送时间等）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="De5sz6eLWoz17631bPSr-13" value="数据字段&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;自定义处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1032.5" y="4920" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="De5sz6eLWoz17631bPSr-14" value="数据字段&lt;br&gt;自定义处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="De5sz6eLWoz17631bPSr-14" value="请求响应配置" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1160" y="4920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="De5sz6eLWoz17631bPSr-15" value="录制接口&lt;br&gt;出/入参定义" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">

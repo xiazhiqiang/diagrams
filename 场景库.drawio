@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-09T15:09:06.865Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="JZL9APjD_ZFjvDS8f6zj" version="21.6.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-07-09T15:19:04.042Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="fNahMIxW7O7ToPwKiaE3" version="21.6.1" type="github" pages="5">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
     <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2117,7 +2117,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l0m9OzlYvH7zdWJly1jI-5" value="应用/组件&lt;br&gt;管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="196.25" y="555" width="80" height="40" as="geometry" />
+          <mxGeometry x="190" y="555" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="l0m9OzlYvH7zdWJly1jI-8" value="Mock数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="316.25" y="555" width="70" height="40" as="geometry" />
@@ -2126,10 +2126,10 @@
           <mxGeometry x="240" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l0m9OzlYvH7zdWJly1jI-14" value="请求响应&lt;br&gt;字段转换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="298.5" y="315" width="97" height="40" as="geometry" />
+          <mxGeometry x="191.5" y="315" width="97" height="40" as="geometry" />
         </mxCell>
         <mxCell id="l0m9OzlYvH7zdWJly1jI-16" value="录制请求数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="315" width="97" height="40" as="geometry" />
+          <mxGeometry x="300" y="315" width="97" height="40" as="geometry" />
         </mxCell>
         <mxCell id="l0m9OzlYvH7zdWJly1jI-24" value="场景库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="32.5" y="160" width="120" height="60" as="geometry" />

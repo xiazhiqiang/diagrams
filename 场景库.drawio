@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-09T22:19:22.579Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="BQgrnc2ix0KHUJtwl715" version="21.6.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-07-09T22:58:20.405Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="1t0Y6TVB0uDyMAjg-CFE" version="21.6.1" type="github" pages="5">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
     <mxGraphModel dx="954" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -797,7 +797,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U003gpnN0zoYlUuhzkkx" name="mock服务">
-    <mxGraphModel dx="2646" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1983" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1540,7 +1540,7 @@
         <mxCell id="De5sz6eLWoz17631bPSr-1" value="API 管理" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="890" y="4620" width="470" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="De5sz6eLWoz17631bPSr-2" value="应用管理" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="De5sz6eLWoz17631bPSr-2" value="应用/组件管理" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="890" y="4760" width="470" height="100" as="geometry" />
         </mxCell>
         <mxCell id="De5sz6eLWoz17631bPSr-3" value="数据管理" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
@@ -1564,24 +1564,24 @@
             <mxPoint x="1280" y="4770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="De5sz6eLWoz17631bPSr-9" value="关联 n:1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="De5sz6eLWoz17631bPSr-8" vertex="1" connectable="0">
+        <mxCell id="De5sz6eLWoz17631bPSr-9" value="n:1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="De5sz6eLWoz17631bPSr-8" vertex="1" connectable="0">
           <mxGeometry x="-0.15" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="De5sz6eLWoz17631bPSr-10" value="环境配置&lt;br&gt;数据服务配置" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="De5sz6eLWoz17631bPSr-10" value="环境配置" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1032.5" y="4790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="De5sz6eLWoz17631bPSr-11" value="导出 API 定义 &amp;amp;&lt;br&gt;服务配置 &amp;amp;&lt;br&gt;Mock 数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="De5sz6eLWoz17631bPSr-11" value="导出 API 定义 &amp;amp;&lt;br&gt;Mock 服务配置 &amp;amp;&lt;br&gt;Mock 数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1160" y="4790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="De5sz6eLWoz17631bPSr-12" value="单帧、多帧&lt;br&gt;数据文件上传" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="De5sz6eLWoz17631bPSr-12" value="单帧/多帧&lt;br&gt;数据文件上传" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="905" y="4920" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="De5sz6eLWoz17631bPSr-13" value="数据字段&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;自定义处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="De5sz6eLWoz17631bPSr-13" value="自定义&lt;br&gt;响应处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1032.5" y="4920" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="De5sz6eLWoz17631bPSr-14" value="请求响应配置" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="De5sz6eLWoz17631bPSr-14" value="Mock 服务配置" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1160" y="4920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="De5sz6eLWoz17631bPSr-15" value="录制接口&lt;br&gt;出/入参定义" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1590,7 +1590,7 @@
         <mxCell id="De5sz6eLWoz17631bPSr-16" value="录制接口&lt;br&gt;请求参数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1032.5" y="5000" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="De5sz6eLWoz17631bPSr-17" value="录制接口&lt;br&gt;响应自定义处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="De5sz6eLWoz17631bPSr-17" value="录制接口&lt;br&gt;自定义响应处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1160" y="5000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="De5sz6eLWoz17631bPSr-51" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="De5sz6eLWoz17631bPSr-19" target="De5sz6eLWoz17631bPSr-48" edge="1">
@@ -1784,7 +1784,7 @@
         <mxCell id="uYYYzH9naLpyIhpkM4_J-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uYYYzH9naLpyIhpkM4_J-11" target="uYYYzH9naLpyIhpkM4_J-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uYYYzH9naLpyIhpkM4_J-10" value="n:1&lt;br&gt;关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uYYYzH9naLpyIhpkM4_J-9">
+        <mxCell id="uYYYzH9naLpyIhpkM4_J-10" value="n:1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uYYYzH9naLpyIhpkM4_J-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-3" as="offset" />
           </mxGeometry>

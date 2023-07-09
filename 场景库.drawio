@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-09T14:09:04.511Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="ZqlN1zhZAhpOKgJTEqQ-" version="21.6.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-07-09T15:08:31.156Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="gxoUq7smyQP5lJsk4k7j" version="21.6.1" type="github" pages="5">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
     <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -797,7 +797,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U003gpnN0zoYlUuhzkkx" name="mock服务">
-    <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1292" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1751,10 +1751,10 @@
             <mxPoint x="1120" y="4740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ACer9ep_UnOqydldai4e-1" value="中间件&lt;br&gt;根据API路径获取服务配置及数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ACer9ep_UnOqydldai4e-1" value="中间件&lt;br&gt;根据API路径获取服务配置及数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1550" y="4690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ACer9ep_UnOqydldai4e-2" value="中间件&lt;br&gt;根据API路径获取服务配置及数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ACer9ep_UnOqydldai4e-2" value="中间件&lt;br&gt;根据API路径获取服务配置及数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1550" y="4385" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
@@ -2074,10 +2074,69 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FoHkqdIpj_LMa6OP3K2Q" name="第 5 页">
-    <mxGraphModel dx="1292" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1292" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="l0m9OzlYvH7zdWJly1jI-13" value="代理中间层" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="250" width="400" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="l0m9OzlYvH7zdWJly1jI-28" value="Chrome 插件" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="178.5" y="280" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="l0m9OzlYvH7zdWJly1jI-25" value="服务层" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="400" width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="l0m9OzlYvH7zdWJly1jI-22" value="业务使用层" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="130" width="400" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="l0m9OzlYvH7zdWJly1jI-11" value="配置后台" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="520" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="l0m9OzlYvH7zdWJly1jI-1" value="组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l0m9OzlYvH7zdWJly1jI-2" value="应用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="288.5" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l0m9OzlYvH7zdWJly1jI-3" value="Mock Server&lt;br&gt;（HTTP/WebSocket）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l0m9OzlYvH7zdWJly1jI-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l0m9OzlYvH7zdWJly1jI-4" target="l0m9OzlYvH7zdWJly1jI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l0m9OzlYvH7zdWJly1jI-7" value="n:1&lt;br&gt;关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l0m9OzlYvH7zdWJly1jI-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0m9OzlYvH7zdWJly1jI-4" value="API 定义&lt;br&gt;管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="53.75" y="555" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l0m9OzlYvH7zdWJly1jI-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l0m9OzlYvH7zdWJly1jI-5" target="l0m9OzlYvH7zdWJly1jI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l0m9OzlYvH7zdWJly1jI-5" value="应用/组件&lt;br&gt;管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="196.25" y="555" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l0m9OzlYvH7zdWJly1jI-8" value="Mock数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="316.25" y="555" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l0m9OzlYvH7zdWJly1jI-12" value="后端 Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l0m9OzlYvH7zdWJly1jI-14" value="请求响应&lt;br&gt;字段转换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298.5" y="315" width="97" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l0m9OzlYvH7zdWJly1jI-16" value="录制请求数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="315" width="97" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l0m9OzlYvH7zdWJly1jI-24" value="场景库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="32.5" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l0m9OzlYvH7zdWJly1jI-27" value="本地开发&lt;br&gt;clark 代理调试" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="295" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T00:40:16.037Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="cPtu9o69_xe1mU9SmiG4" version="21.6.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-09T14:09:04.511Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="ZqlN1zhZAhpOKgJTEqQ-" version="21.6.1" type="github" pages="5">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
     <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -797,7 +797,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U003gpnN0zoYlUuhzkkx" name="mock服务">
-    <mxGraphModel dx="1520" dy="996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1761,7 +1761,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="22HOHR0It0rYgMHRkXH8" name="孪生服务中心-SDK设计">
-    <mxGraphModel dx="1511" dy="224" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1292" dy="47" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="na3GEsZW8x99YdmNZLgH-0" />
         <mxCell id="na3GEsZW8x99YdmNZLgH-1" parent="na3GEsZW8x99YdmNZLgH-0" />
@@ -2061,15 +2061,23 @@
         <mxCell id="vUXjWAX2nUAFUlUBGt-m-112" value="mock&lt;br&gt;插件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="na3GEsZW8x99YdmNZLgH-1" vertex="1">
           <mxGeometry x="320" y="1879" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IUxrKh-m-CdSVHTuVqHT-0" value="场景组件在线调试&lt;br&gt;/sdk-center/sceneCode" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+        <mxCell id="IUxrKh-m-CdSVHTuVqHT-0" value="场景组件在线调试&lt;br&gt;/sdk-center/sceneCode" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="na3GEsZW8x99YdmNZLgH-1" vertex="1">
           <mxGeometry x="1310" y="2029" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IUxrKh-m-CdSVHTuVqHT-1" value="方案一" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+        <mxCell id="IUxrKh-m-CdSVHTuVqHT-1" value="方案一" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="na3GEsZW8x99YdmNZLgH-1" vertex="1">
           <mxGeometry x="800" y="950" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IUxrKh-m-CdSVHTuVqHT-2" value="方案二" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="na3GEsZW8x99YdmNZLgH-1">
+        <mxCell id="IUxrKh-m-CdSVHTuVqHT-2" value="方案二" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="na3GEsZW8x99YdmNZLgH-1" vertex="1">
           <mxGeometry x="800" y="1539" width="40" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FoHkqdIpj_LMa6OP3K2Q" name="第 5 页">
+    <mxGraphModel dx="1292" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-10T23:24:24.037Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Rkbv79N3arNzuabPEpGC" version="21.6.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-03T03:27:35.932Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="H2q0oMDPL8BxbBJd7gpN" version="21.6.2" type="github" pages="5">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
     <mxGraphModel dx="1292" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -797,7 +797,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U003gpnN0zoYlUuhzkkx" name="mock服务">
-    <mxGraphModel dx="2089" dy="1287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1292" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1528,10 +1528,10 @@
         <mxCell id="De5sz6eLWoz17631bPSr-3" value="数据管理" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1152" y="5801" width="470" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="De5sz6eLWoz17631bPSr-4" value="接口协议&lt;br&gt;上传" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="De5sz6eLWoz17631bPSr-4" value="协议数据&lt;br&gt;导入" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1167" y="5590" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="De5sz6eLWoz17631bPSr-5" value="接口&lt;br&gt;自定义编辑" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="De5sz6eLWoz17631bPSr-5" value="接口&lt;br&gt;自定义编辑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1422" y="5590" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="De5sz6eLWoz17631bPSr-6" value="协议地址&lt;br&gt;导入" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1554,7 +1554,7 @@
         <mxCell id="De5sz6eLWoz17631bPSr-10" value="环境配置" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1294.5" y="5715" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="De5sz6eLWoz17631bPSr-11" value="导出 API 定义 &amp;amp;&lt;br&gt;Mock 服务配置 &amp;amp;&lt;br&gt;Mock 数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="De5sz6eLWoz17631bPSr-11" value="导出 API 定义 &amp;amp;&lt;br&gt;Mock 服务配置 &amp;amp;&lt;br&gt;Mock 数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1422" y="5715" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="De5sz6eLWoz17631bPSr-12" value="单帧/多帧&lt;br&gt;数据文件上传" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1780,7 +1780,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="A9eWNv4QV04H2rMDdwhc-1" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="uYYYzH9naLpyIhpkM4_J-28" target="Gkg4vWBcQVTf-ai36aAT-1">
+        <mxCell id="A9eWNv4QV04H2rMDdwhc-1" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="uYYYzH9naLpyIhpkM4_J-28" target="Gkg4vWBcQVTf-ai36aAT-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1580" y="5460" as="sourcePoint" />
             <mxPoint x="1630" y="5410" as="targetPoint" />
@@ -1794,7 +1794,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="22HOHR0It0rYgMHRkXH8" name="孪生服务中心-SDK设计">
-    <mxGraphModel dx="1292" dy="47" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1292" dy="95" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="na3GEsZW8x99YdmNZLgH-0" />
         <mxCell id="na3GEsZW8x99YdmNZLgH-1" parent="na3GEsZW8x99YdmNZLgH-0" />

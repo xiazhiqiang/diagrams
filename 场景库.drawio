@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T03:29:10.064Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="kmIBhZdvkxDGVW1VUP_m" version="21.6.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-30T05:54:00.396Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="3hiy65B8hT6Vq7o8K5le" version="21.6.2" type="github" pages="5">
   <diagram id="35yCV3_otVQqKk77Ufky" name="工程架构">
     <mxGraphModel dx="1292" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -305,7 +305,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="s-4w-iDDupcCNnd2d9N3" name="组件开发及详情页设计">
-    <mxGraphModel dx="3210" dy="2575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1292" dy="1272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="KhWmksY6JCdFm0Ro9-8N-0" />
         <mxCell id="KhWmksY6JCdFm0Ro9-8N-1" parent="KhWmksY6JCdFm0Ro9-8N-0" />
@@ -779,7 +779,7 @@
             <mxPoint x="690" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KhWmksY6JCdFm0Ro9-8N-115" value="开放平台&lt;br&gt;Portal" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;" parent="KhWmksY6JCdFm0Ro9-8N-1" vertex="1">
+        <mxCell id="KhWmksY6JCdFm0Ro9-8N-115" value="业务场景库&lt;br&gt;Portal" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;" parent="KhWmksY6JCdFm0Ro9-8N-1" vertex="1">
           <mxGeometry x="655" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KhWmksY6JCdFm0Ro9-8N-116" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=12;fontColor=#000000;" parent="KhWmksY6JCdFm0Ro9-8N-1" source="KhWmksY6JCdFm0Ro9-8N-115" target="KhWmksY6JCdFm0Ro9-8N-7" edge="1">
@@ -797,7 +797,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U003gpnN0zoYlUuhzkkx" name="mock服务">
-    <mxGraphModel dx="1292" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1292" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1794,7 +1794,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="22HOHR0It0rYgMHRkXH8" name="孪生服务中心-SDK设计">
-    <mxGraphModel dx="1292" dy="95" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1292" dy="72" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="na3GEsZW8x99YdmNZLgH-0" />
         <mxCell id="na3GEsZW8x99YdmNZLgH-1" parent="na3GEsZW8x99YdmNZLgH-0" />
@@ -2107,7 +2107,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FoHkqdIpj_LMa6OP3K2Q" name="第 5 页">
-    <mxGraphModel dx="940" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1292" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

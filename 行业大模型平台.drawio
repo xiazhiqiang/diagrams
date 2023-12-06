@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T06:17:47.451Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="HSrDFyoDyW_K3VPJZGqZ" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-06T06:34:56.315Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="HzYEAACFXvFdtjDoJk2_" version="22.1.5" type="github">
   <diagram name="主应用改造" id="kxO301Pb_dpQz-EEhZvu">
-    <mxGraphModel dx="1692" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1386" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,6 +72,9 @@
         </mxCell>
         <mxCell id="cxbcMArGjE0VCuVYB8zi-21" value="前端项目&lt;br&gt;（构建器&amp;amp;插件）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="765" y="265" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QA27681SCqVjvE8A_Jko-1" value="业务配置&lt;br&gt;（新增）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="265" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
